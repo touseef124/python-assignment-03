@@ -1,0 +1,11 @@
+x= input('write something :');
+res= [int(i)for i in x.split() if i.isdigit()];
+print res;
+dict{
+     "a" : 23,
+     "b" : 45,
+     "c" : 'apple'
+}
+x=input('enter new key');
+dict.update({'d': x});
+print(dict);
